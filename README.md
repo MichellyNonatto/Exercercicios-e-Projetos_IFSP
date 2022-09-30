@@ -1,4 +1,4 @@
-# Lógica com Linguagem C <img  align="" title="C" alt="Michelly-C" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" />
+# Lógica com Linguagem <img  align="center" title="C" alt="Michelly-C" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" />
 <hr>
 <div align="center">
   
