@@ -4,7 +4,7 @@ int main(void) {
 
   int var;
   
-  printf("Qual o resultado de 10 + 5 ?\n");
+  printf("Qual o resultado de 10 + 5?\n");
   scanf("%d", &var);
 
   if(var != 15){
