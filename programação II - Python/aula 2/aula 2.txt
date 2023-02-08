@@ -1,0 +1,9 @@
+ANOTAÇÕES
+
+* Python é uma linguagem portável, na qual significa que o desenvolvimento do software por base nesta linguagem não é necessario uma bodificação em seu programa ao ser utilizado em outros sistemas operacionais.
+
+* Criado por Guido Van Russum em 1991.
+
+* Pode ser interpretada durante sua execução de duas formas; Iterativa - exemplo é a utilização do help() no corpo do programa, durante sua execução o interpretador vai disponibilizar ferramentas para ajudar o desenvolvedor no uso da linguagem.
+Modo de script - leitura do código de execução de forma tradicional.
+
