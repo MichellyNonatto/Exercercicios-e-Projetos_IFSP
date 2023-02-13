@@ -1,0 +1,23 @@
+Boot para mandar menssagens autómaticas para uma lista de contatos.
+
+Bibliotecas utilizadas - Keyboard, Pywhatkit e Time.
+
+1- instalar e importar bibliotecas;
+2- criar uma lista de contatos;
+3- laço de repetição;
+4- condição;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Referência: Feito com base no tutorial do youtube - https://www.youtube.com/watch?v=UenvIUxYo-0

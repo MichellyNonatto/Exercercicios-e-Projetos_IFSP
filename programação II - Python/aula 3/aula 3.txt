@@ -1,0 +1,34 @@
+ANOTAÇÕES
+
+*Para o modo script utiliza-se na primeira linha o código 
+	( # -*- coding: utf-8 -*- )
+para que na execução do programa seja executado o padrão portguês de escrita.
+
+*Cometário em Python: #comentário - uma linha, """comentário""" - multiplas linhas.
+
+*Tipos de dados:
+int: número inteiro - inteiro
+str: conjunto de caracter - string
+bool: valor lógico - booleano
+list: agrupamento de elementos mutavel - lista
+tuple: agrupamento de elementos imutavel - tupla
+dict: elementos que obtem uma chave e um valor - dicionário
+set: os elementos não podem ser alterados porém pode acrescentar ou deletar esses elementos - set
+
+*type(variável) - retorna o tipo da variável
+
+*isinstance(variável, tipoDeDado) - é verificado toda a estrutura de herança do objeto.
+
+*Mostrando valor da variável juntamente com a função print():
+variavel = "Python"
+1- ("aprendendo a linguagem %s."%(variavel)) - %s = string
+
+2- ("aprendendo a linguagem {0}".format(variavel))
+
+3-(f"aprendendo a linguagem {variavel}") - antes das aspas duplas se inicia com a letra -f-.
+
+*Formatação das casas decimais, se o número real ANTES da vígula for extenso e é necessario colocar um valor menor, utilizasse o :. após a declaração da variável na função print para mostrar até quantas casas o programa deverá mostrar. Para DEPOIS da vírgula é só acrescentar a letra -f- após a declaração da quantidade de casas decimais.
+
+*É possivel ultilizar um separador de casas decimais, é declarado da mesma forma da formatação do float só que no lugar do . ultiliza-se a , . 
+
+*Declaração de porcentagem - {:.2%}
