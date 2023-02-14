@@ -1,0 +1,19 @@
+ANOTAÇÕES - 
+
+*Converção de valores
+int <-> float = int(12.6) / float(26)
+string -> int = int("44") (IMPORTANTE - desde que o valor seja um número.)
+
+*Arredondamento - usa-se o round(valor, casasDecimais) para arredondar um valor float.
+
+*dir() ???????????
+
+*Modificações visuais na string - 
+variavel.upper() = letras maiúsculas
+variavel.lower() = letras minúsculas
+variavel.split() = exibe as strigs em uma lista
+variavel.split('a') = além da primeira função, retira o símbolo informado.
+variavel.capitalize() = somente a primeira letra fica em maiúscula.
+variavel.replace('a', 'b') = substitui um símbolo por outro
+
+*A exponênciação pode ser declarada com os símbolos 3**2 ou usando a função pow(3, 2). -Três ao quadrado-
