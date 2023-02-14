@@ -11,13 +11,13 @@ int: número inteiro - inteiro
 str: conjunto de caracter - string
 bool: valor lógico - booleano
 list: agrupamento de elementos mutavel - lista
-tuple: agrupamento de elementos imutavel - tupla
+tuple: aramazenamento de valores que não serão mudados durante a execução  do programa - tupla
 dict: elementos que obtem uma chave e um valor - dicionário
 set: os elementos não podem ser alterados porém pode acrescentar ou deletar esses elementos - set
 
 *type(variável) - retorna o tipo da variável
 
-*isinstance(variável, tipoDeDado) - é verificado toda a estrutura de herança do objeto.
+*isinstance(valor, tipoDeDado) - verifica se o valor é igual ao tipo de dado inserido na função.
 
 *Mostrando valor da variável juntamente com a função print():
 variavel = "Python"
