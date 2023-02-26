@@ -1,0 +1,9 @@
+ESTRUTURA DE DECISÃO
+
+*a estrutura de descição é formada segundo Sweigart da seguinte forma, condição - valor booleano de validação, e blócos de códigos ou cláusualas - instruções indentadas conforme a sequência de funcionalidades.
+
+*Estrutura de descição simples - é execultada somente se a condição for verdadeira.
+
+*Estruturas de Decisão Composta - a condição obtém dois caminhos, verdadeiro ou falso, na qual cada um pode ter uma retorno diferente.
+
+*Estruturas de Decisão Encadeada - a condição obtém vários caminhos, na qual sua ordem determina-rá aonde será interrompido sua execução após ter uma condição verdadeira.
