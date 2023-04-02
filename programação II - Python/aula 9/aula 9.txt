@@ -1,0 +1,12 @@
+AULA 9 - Estruturas de dados
+
+- Tuplas: é uma sequência ordenada de 0 ou mais objetos.
+- indexáveis: suportam apenas números.
+- tuplas são imutáveis
+- podemos converter uma tupla em uma lista: a = list(tupla)
+- index: mostra a posição do elemento
+- console: mostra quantos objetos daquele padrão existem.
+- len: você descobre o tamanho da tupla
+- são usadas para configurações.
+- declaração de tuplas acontece de três formas, uso de ("elemento"), () parenteces vazio ou declaração de atributo com seus elementos separado por vírgulas atributo = 4, 5, 6
+type - descobre a classe do atributo.

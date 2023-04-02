@@ -1,0 +1,32 @@
+Aula 8 Listas
+
+- Estrutura de dado recurciva
+- Recursiva: que pode ser repetido várias vezes
+- Sua estrutura é formada por colchetes 
+- Podemos fazer uma lista dentro de uma lista:
+lista = [[informação1, informação2], [dado1, dado2]]
+print(lista[0][2]) = informação2
+- listas são mutáveis
+- .append = adicionar um novo elemento à lista
+- range serve para informar ao laço for que será um valor literal, número.
+
+- lista.extend(lista2) adiciona uma lista em outra lista
+- lista.insert(indice, valor) adiciona um valor no indice indicado
+-lista.index(elemento), mostra o indice na qual se encontra o elemento procurado.
+- [:] = significa que é uma cópia da lista
+- lista.pop(indice) = remove o elemento indicado pelo índice porém se o mesmo não for declarado irá remover o último elemento da lista.
+- lista.clear = remove todos os elementos da lista.
+- lista.count('elemento') = retorna quantos elementos tem na lista
+- lista.sort(reverse = True)= ordena os valores da lista do menor para o maior - vale somente para números
+- lista.reverse() = inverte a ordem da lista.
+
+
+- Elemento vazio é igual a 'None'
+
+- .upper() deixa toda a variável seja com letras maíusculas.
+
+- Compreenção de lista com estrutura de descição = [expressão for item in lista if condição]
+
+- Compreenção de lista com estrutura de descição encadeado = [resultado_do_if if expressão else resultado_else for item in lista]
+
+- Enumarate = restorna o índice e o elemento da lista
