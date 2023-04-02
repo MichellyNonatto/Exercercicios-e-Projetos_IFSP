@@ -1,0 +1,1 @@
+#Faça um programa que leia três valores que representam os lados de um triângulo. Primeiramente, verifique se os lados podem formar um triângulo ( a soma de dois lados não pode ser menor que o terceiro lado ). Caso possa formar um triângulo, indique se este é equilátero, isósceles ou escaleno.
