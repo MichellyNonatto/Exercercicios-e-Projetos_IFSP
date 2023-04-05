@@ -1,0 +1,7 @@
+Orientação a Objetos
+
+O que é: agrupamento de objetos com características (atributos) para um elemento, contendo dados que diferenciam o objeto.
+características = atributos.
+classe = agrupamento de objetos pertencentes a um mesmo comportamento.
+instância de uma classe = 
+self = parâmetro obrigatório, quando criado a classe colocasse um self verificará as informações do método existente no objeto. Cópia da instância criada.

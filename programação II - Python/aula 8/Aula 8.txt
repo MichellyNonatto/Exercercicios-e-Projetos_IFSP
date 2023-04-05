@@ -1,32 +1,32 @@
 Aula 8 Listas
 
 - Estrutura de dado recurciva
-- Recursiva: que pode ser repetido v·rias vezes
-- Sua estrutura È formada por colchetes 
+- Recursiva: que pode ser repetido v√°rias vezes
+- Sua estrutura √© formada por colchetes 
 - Podemos fazer uma lista dentro de uma lista:
-lista = [[informaÁ„o1, informaÁ„o2], [dado1, dado2]]
-print(lista[0][2]) = informaÁ„o2
-- listas s„o mut·veis
-- .append = adicionar um novo elemento ‡ lista
-- range serve para informar ao laÁo for que ser· um valor literal, n˙mero.
+lista = [[informa√ß√£o1, informa√ß√£o2], [dado1, dado2]]
+print(lista[0][2]) = informa√ß√£o2
+- listas s√£o mut√°veis
+- .append = adicionar um novo elemento √† lista
+- range serve para informar ao la√ßo for que ser√° um valor literal, n√∫mero.
 
 - lista.extend(lista2) adiciona uma lista em outra lista
 - lista.insert(indice, valor) adiciona um valor no indice indicado
 -lista.index(elemento), mostra o indice na qual se encontra o elemento procurado.
-- [:] = significa que È uma cÛpia da lista
-- lista.pop(indice) = remove o elemento indicado pelo Ìndice porÈm se o mesmo n„o for declarado ir· remover o ˙ltimo elemento da lista.
+- [:] = significa que √© uma c√≥pia da lista
+- lista.pop(indice) = remove o elemento indicado pelo √≠ndice por√©m se o mesmo n√£o for declarado ir√° remover o √∫ltimo elemento da lista.
 - lista.clear = remove todos os elementos da lista.
 - lista.count('elemento') = retorna quantos elementos tem na lista
-- lista.sort(reverse = True)= ordena os valores da lista do menor para o maior - vale somente para n˙meros
+- lista.sort(reverse = True)= ordena os valores da lista do menor para o maior - vale somente para n√∫meros
 - lista.reverse() = inverte a ordem da lista.
 
 
-- Elemento vazio È igual a 'None'
+- Elemento vazio √© igual a 'None'
 
-- .upper() deixa toda a vari·vel seja com letras maÌusculas.
+- .upper() deixa toda a vari√°vel seja com letras ma√≠usculas.
 
-- CompreenÁ„o de lista com estrutura de desciÁ„o = [express„o for item in lista if condiÁ„o]
+- Compreen√ß√£o de lista com estrutura de desci√ß√£o = [express√£o for item in lista if condi√ß√£o]
 
-- CompreenÁ„o de lista com estrutura de desciÁ„o encadeado = [resultado_do_if if express„o else resultado_else for item in lista]
+- Compreen√ß√£o de lista com estrutura de desci√ß√£o encadeado = [resultado_do_if if express√£o else resultado_else for item in lista]
 
-- Enumarate = restorna o Ìndice e o elemento da lista
+- Enumarate = restorna o √≠ndice e o elemento da lista
