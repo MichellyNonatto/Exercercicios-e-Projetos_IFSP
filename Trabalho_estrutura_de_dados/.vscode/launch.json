@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/smart/Downloads/Trabalho_estrutura_de_dados",
-      "program": "c:/Users/smart/Downloads/Trabalho_estrutura_de_dados/build/Release/outRelease",
+      "cwd": "c:/Users/smart/Downloads/trabalho_estutura_de_dados/codigo_fonte",
+      "program": "c:/Users/smart/Downloads/trabalho_estutura_de_dados/codigo_fonte/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
