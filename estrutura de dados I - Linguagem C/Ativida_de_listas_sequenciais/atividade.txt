@@ -1,0 +1,5 @@
+1) Obter o valor do elemento de uma determinada posição na lista;
+
+2) Modificar o valor do elemento de uma determinada posição na lista;
+
+3) Obter a posição de elemento cujo valor é dado.
