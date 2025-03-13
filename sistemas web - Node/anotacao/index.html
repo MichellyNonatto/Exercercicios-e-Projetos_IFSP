@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const url = "http://dummyjson.com/test";
+        function receberResposta(response) {
+            return response.json()
+        }
+        function imprimeJson(jsonObj) {
+            console.log(jsonObj);
+        }
+
+        //fetch(url).then(receberResposta).then();
+
+        async function requisicaoDummyJson() {
+            const resposta = await fetch(url);
+            const json = await resposta.json();
+           // console.log(json)
+            return json // === resolve(json)
+        }
+
+        // const teste = await requisicaoDummyJson();
+        // console.log(teste);
+
+        console.log(requisicaoDummyJson().then(imprimeJson));
+    </script>
+</body>
+
+</html>
