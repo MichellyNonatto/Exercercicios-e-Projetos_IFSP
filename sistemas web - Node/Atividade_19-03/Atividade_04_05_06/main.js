@@ -1,6 +1,8 @@
 const ReadDocument = require("./readDocument");
 
-const document = new ReadDocument("./.txt");
+const filename = "./.txt";
+const document = new ReadDocument();
 
 document.emFluxo;
 document.umaVez;
+document.leitura;
