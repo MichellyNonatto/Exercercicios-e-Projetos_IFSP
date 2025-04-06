@@ -9,27 +9,40 @@
 
 <body>
     <script>
-        const url = "http://dummyjson.com/test";
-        function receberResposta(response) {
-            return response.json()
-        }
-        function imprimeJson(jsonObj) {
-            console.log(jsonObj);
-        }
+        // const url = "http://dummyjson.com/test";
+        // function receberResposta(response) {
+        //     return response.json()
+        // }
+        // function imprimeJson(jsonObj) {
+        //     console.log(jsonObj);
+        // }
 
         //fetch(url).then(receberResposta).then();
 
-        async function requisicaoDummyJson() {
-            const resposta = await fetch(url);
-            const json = await resposta.json();
-           // console.log(json)
-            return json // === resolve(json)
-        }
+        // async function requisicaoDummyJson() {
+        //     const resposta = await fetch(url);
+        //     const json = await resposta.json();
+        //    // console.log(json)
+        //     return json // === resolve(json)
+        // }
 
         // const teste = await requisicaoDummyJson();
         // console.log(teste);
 
-        console.log(requisicaoDummyJson().then(imprimeJson));
+        // console.log(requisicaoDummyJson().then(imprimeJson));
+        const myPromisse = new Promise((resolve, reject) => {
+            const name = "Michelly";
+
+            if (name === "Michelly") {
+                resolve(`Usuário ${name} encontrado!`);
+            } else {
+                reject("Usuário não encontrado.");
+            }
+        })
+
+        myPromisse.then((data) => {
+            console.log(data);
+        });
     </script>
 </body>
 
