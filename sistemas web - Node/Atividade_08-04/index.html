@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 01</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            flex-direction: column;
+            gap: 5rem;
+        }
+
+        .buttonList {
+            display: flex;
+            gap: 1rem;
+            padding: 0px 1rem;
+            justify-content: space-between;
+        }
+
+        #result {
+            border-radius: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 90%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1>Métodos HTTP</h1>
+        <h3>Consumindo uma API</h3>
+        <hr />
+    </div>
+
+    <div class="buttonList">
+        <input id="actionPost" type="number" placeholder="ID do POST"></input>
+        <button onclick="fetchGetById(document.getElementById('actionPost'))">GET - Post por ID</button>        
+        <button onclick="fetchPost(document.getElementById('actionPost'))">POST - Criar Post</button>
+        <br>
+        <button onclick="fetchPut()">PUT - Atualizar POST (ID 1)</button>
+        <button onclick="fechDelete()">DELETE - Deletar Post (ID 1)</button>
+        <button onclick="fetchGetAll()">GET - Todos os Posts</button>
+    </div>
+    <div id="result"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
